@@ -8,6 +8,7 @@ git config --global user.email xxx
 git config --global user.password xxx # 这里可以通过 "Github/Settings/Developer Settings" 设置token
 git config --global http.proxy xxx.xxx.xxx.xxx:zz # 代理服务器地址: 代理服务器端口号
 git config --list # 查看上述信息
+git config --global --edit # 编辑
 git config --global credential.helper store # 避免每次git clone重复输入用户名和密码
 ```
 
