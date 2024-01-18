@@ -15,8 +15,8 @@ tensorboard --logdir='./logs' --bind_all # 打开 http://localhost:6006/ 查看
 ### 在 Jupyter Notebooks 中使用 TensorBoard
 
 ```jupyter-notebook
-load_ext tensorboard
-tensorboard --logdir logs
+%load_ext tensorboard
+%tensorboard --logdir logs
 ```
 
 ### 远程运行 TensorBoard
