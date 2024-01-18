@@ -166,11 +166,12 @@ git merge --no-ff -m "keep merge info" <branch> # --no-ff 禁止快进式合并�
 git remote # 列出当前仓库中已配置的远程仓库
 git remote -v # 列出当前仓库中已配置的远程仓库，并显示它们的 URL
 git remote show <remote_name> # 显示指定远程仓库的详细信息
-git remote add <remote_name> <remote_url> # 指定一个远程仓库的名称和 URL，将其添加到当前仓库中。
-git remote rm <remote_name>  # 删除远程仓库
+git remote add <remote_name> <remote_url> # 指定一个远程仓库的名称和 URL，将其添加到当前仓库中
 git remote rename <old_name> <new_name> # 将已配置的远程仓库重命名
+git remote set-url <remote_name> <new_url> # 修改指定远程仓库的 URL
 git remote remove <remote_name> # 从当前仓库中删除指定的远程仓库
-git remote set-url <remote_name> <new_url> # 修改指定远程仓库的 URL。
+git remote rm <remote_name>  # 删除远程仓库
+
 ```
 
 ### 从远程获取代码库
