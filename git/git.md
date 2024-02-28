@@ -1,5 +1,7 @@
 # Git 教程
 
+<img src="./git.png" title="" alt="git" width="450">
+
 ## 配置
 
 ```shell
